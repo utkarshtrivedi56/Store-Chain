@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "A Dapp which stores health records",
   "author": "utkarshtrivedi56@gmail.com",
+  "homepage":"https://utkarshtrivedi56.github.io/Store-Chain/",
   "dependencies": {
     "babel-polyfill": "6.26.0",
     "babel-preset-env": "1.7.0",
