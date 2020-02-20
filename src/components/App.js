@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Web3 from 'web3';
 import './App.css';
 import Images from '../abis/Image.json';
+import ParticlesContainer from './ParticleContainer';
 
 const ipfsClient = require('ipfs-http-client')
 const ipfs = ipfsClient({ host: 'ipfs.infura.io', port: 5001, protocol: 'https' }) 
@@ -89,6 +90,7 @@ class App extends Component {
     let url = "https://ipfs.infura.io/ipfs/" + this.state.imgHash
     return (
       <div>
+         
         <nav className="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
           <a className="navbar-brand col-sm-3 col-md-2 mr-0 text white" href="https://github.com/utkarshtrivedi56" target="_blank" rel="noopener noreferrer">
             <small className="text-white">
@@ -103,6 +105,8 @@ class App extends Component {
             </li>
           </ul>
         </nav>
+        <div className="particle">
+        {/* <ParticlesContainer/> */}
         <div className="container-fluid mt-5">
           <div className="row">
             <main role="main" className="col-lg-12 d-flex text-center">
@@ -112,7 +116,7 @@ class App extends Component {
                   <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
                   <img src={url} className='Applogo' alt="logo" />
                 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-                <h2>Add File</h2>
+                <h2 color='white '>Add File</h2>
                 <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
                 <form onSubmit={this.onSubmit} >
                   <input type='file' onChange={this.captureFile} />
@@ -123,6 +127,7 @@ class App extends Component {
               </div>
             </main>
           </div>
+        </div>
         </div>
       </div>
     );
