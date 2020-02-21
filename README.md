@@ -29,7 +29,7 @@ We need crypto-wallet to do the transaction such as Metamask.
 
 ## Dependencies
 
-1. Currently this react Web App is deployed on Ropsten and Rinkeby test network. 
+1. Currently this react Web App is deployed on Ropsten, Rinkeby and Kovan test network. 
 2. One of its dependency is to use metamask wallet with it. 
 
 ## For Test Ethers
