@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Web3 from 'web3';
 import './App.css';
 import Images from '../abis/Image.json';
-import ParticlesContainer from './ParticleContainer';
+//import ParticlesContainer from './ParticleContainer';
 
 const ipfsClient = require('ipfs-http-client')
 const ipfs = ipfsClient({ host: 'ipfs.infura.io', port: 5001, protocol: 'https' }) 
