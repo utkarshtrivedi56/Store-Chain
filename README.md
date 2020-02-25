@@ -36,6 +36,9 @@ We need crypto-wallet to do the transaction such as Metamask.
 Ropsten test-network faucet ==> https://faucet.ropsten.be/  \
 Rinkeby test-network faucet ==> https://faucet.rinkeby.io/
 
+## Demo
+Demo is available at https://utkarshtrivedi56.github.io/Store-Chain/
+
 <small>Home Screen</small>
 ![Home Screen](assets/Home.PNG)
 
